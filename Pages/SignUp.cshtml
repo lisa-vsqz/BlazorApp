@@ -1,0 +1,62 @@
+﻿@page
+@model BlazorApp.Pages.SignUp
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Error</title>
+    <link href="~/css/bootstrap/bootstrapPulse.min.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
+    <style>
+        .container-fluid {
+            margin-top: 100px; /* Adjust the value as needed */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                
+                    <h1>@ViewData["Title"]</h1>
+                    <form id="registerForm" method="post">
+                        <h2>Crea una nueva cuenta</h2>
+                        <hr />
+                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                            <label asp-for="Input.Email">Email</label>
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                            <label asp-for="Input.Password">Password</label>
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                            <label>Empresa</label>
+                            <span class="text-danger"></span>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <a href="login" class="btn btn-primary">Login</a>
+                            <a href="signUp" class="btn btn-primary">Sign Up</a>
+                        </div>
+                    </form>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <img src="~/signup.svg" alt="SignUpImage" class="img-fluid w-50">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

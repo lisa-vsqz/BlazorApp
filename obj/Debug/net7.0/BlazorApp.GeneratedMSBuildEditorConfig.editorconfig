@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp
+build_property.RootNamespace = BlazorApp
+build_property.ProjectDir = D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Liseth/Documents/UDLA/QUINTO SEMESTRE/MODELADO/BlazorApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
