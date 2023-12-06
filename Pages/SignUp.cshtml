@@ -1,8 +1,29 @@
 ﻿@page
+@using BlazorApp.Services
+@using BlazorApp.Models
 @model BlazorApp.Pages.SignUp
+@inject APIservice APIservice
+
+
+
+@* @functions {
+    public List<Emisor> listaEmisor = new List<Emisor> ();
+
+        protected async Task OnInitializedAsync()
+        {
+        listaEmisor = await APIservice.GetEmisor();
+        // listaEmisor.Add(new Emisor { Codigo = 1, NombreEmisor = "si", Ruc = "1" });
+        // listaEmisor.Add(new Emisor { Codigo = 2, NombreEmisor = "si", Ruc = "1" });
+        // listaEmisor.Add(new Emisor { Codigo = 3, NombreEmisor = "si", Ruc = "1" });
+        }
+}
+ *@
 @{
     ViewData["Title"] = "Register";
 }
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,21 +57,27 @@
                             <label asp-for="Input.Email">Email</label>
                             <span asp-validation-for="Input.Email" class="text-danger"></span>
                         </div>
-                        <div class="form-floating mb-3">
-                            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                            <label asp-for="Input.Password">Password</label>
-                            <span asp-validation-for="Input.Password" class="text-danger"></span>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                            <label>Empresa</label>
-                            <span class="text-danger"></span>
-                        </div>
-                        <div class="d-grid gap-2">
-                            <a href="login" class="btn btn-primary">Login</a>
-                            <a href="signUp" class="btn btn-primary">Sign Up</a>
-                        </div>
-                    </form>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                        <label asp-for="Input.Password">Password</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Empresas</label>
+
+                        <select id="empresas" class="form-control" autocomplete="Empresa" placeholder="Empresa">
+                            @foreach (Emisor e in @Model.listaEmisor)
+                            {
+                                <option value="@e.Codigo">@e.Codigo: @e.NombreEmisor</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="d-grid gap-2 mt-3">
+                        <a href="login" class="btn btn-primary">Login</a>
+                        <a href="signUp" class="btn btn-primary">Sign Up</a>
+                    </div>
             </div>
             <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
                 <img src="~/signup.svg" alt="SignUpImage" class="img-fluid w-50">

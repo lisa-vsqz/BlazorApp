@@ -6,7 +6,6 @@ D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\bin\Debug\net7
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\bin\Debug\net7.0\BlazorApp.runtimeconfig.json
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\bin\Debug\net7.0\BlazorApp.dll
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\bin\Debug\net7.0\BlazorApp.pdb
-D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.AssemblyReference.cache
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfoInputs.cache
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfo.cs
@@ -30,3 +29,4 @@ D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
 D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll
+D:\Users\Liseth\Documents\UDLA\QUINTO SEMESTRE\MODELADO\BlazorApp\obj\Debug\net7.0\BlazorApp.sourcelink.json

@@ -1,5 +1,8 @@
 ﻿@page "/Login"
 @model BlazorApp.Pages.Login
+@using BlazorApp.Services
+@using BlazorApp.Models
+@inject APIservice APIservice
 
 @{
     ViewData["Title"] = "Log in";
@@ -36,6 +39,18 @@
                         <label asp-for="Input.Email" class="form-label">Email</label>
                         <span asp-validation-for="Input.Email" class="text-danger"></span>
                     </div>
+
+                    <div class="mb-3">
+                        <label>Empresas</label>
+
+                        <select id="empresas" class="form-control" autocomplete="Empresa" placeholder="Empresa">
+                            @foreach (Emisor e in @Model.listaEmisor)
+                            {
+                                <option value="@e.Codigo">@e.Codigo: @e.NombreEmisor</option>
+                            }
+                        </select>
+                    </div>
+
                     <div class="form-floating mb-3">
                         <input asp-for="Input.Password" class="form-control" autocomplete="current-password"
                                aria-required="true" placeholder="password" />

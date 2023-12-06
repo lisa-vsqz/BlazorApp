@@ -1,3 +1,5 @@
+using BlazorApp.Models;
+using BlazorApp.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Identity;
@@ -8,9 +10,15 @@ namespace BlazorApp.Pages
 {
     public class Login : PageModel
     {
-        public void OnGet()
-        {
+        public List<Emisor> listaEmisor = new List<Emisor>();
 
+
+        public void OnGetAsync(APIservice aPIservice)
+        {
+            listaEmisor = aPIservice.GetEmisor().Result;
+            //listaEmisor.Add(new Emisor { Codigo = 1, NombreEmisor = "si", Ruc = "1" });
+            //listaEmisor.Add(new Emisor { Codigo = 2, NombreEmisor = "si", Ruc = "1" });
+            //listaEmisor.Add(new Emisor { Codigo = 3, NombreEmisor = "si", Ruc = "1" });
         }
 
 
